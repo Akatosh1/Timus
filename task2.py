@@ -47,7 +47,7 @@ class Main():
             print(sorted(self.half_two))
 
 if __name__ == "__main__":
-    file = open("test2.txt", "r")
+    file = open("in.txt", "r")
     data = file.read().split()
     main = Main(data)
     main.calculate()

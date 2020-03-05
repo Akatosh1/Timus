@@ -32,7 +32,7 @@ class Main:
                 self.find_chain(i)
 
 if __name__ == "__main__":
-    file = open("test1.txt", "r")
+    file = open("in.txt", "r")
     data = file.read().split()
     main = Main(data)
     answer = main.calculate()
